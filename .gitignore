@@ -1,0 +1,8 @@
+# private mining artefacts: source paths into the private archive, raw miner output
+_ledger/*
+!_ledger/claims-public.jsonl
+!_ledger/SCHEMA.md
+!_ledger/CUT-v0.1.md
+_gate/REVISION-*.md
+__pycache__/
+*.pyc

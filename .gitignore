@@ -6,3 +6,7 @@ _ledger/*
 _gate/REVISION-*.md
 __pycache__/
 *.pyc
+
+# outward-strategy drafts: private, never published
+_promo/
+_outward/

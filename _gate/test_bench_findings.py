@@ -237,4 +237,5 @@ def test_treatment_line_counts_only_the_tasks_own_trap_atoms(monkeypatch):
 def test_totals_cost_is_na_when_no_row_is_priced():
     run = _run("R", "a", "A", "m", "2026-01-01T00:00:00+00:00", [_row("t01", dispatch="completed")])
     block = bf.run_block(run, {})
-    assert block.splitlines()[-1].split("|")[6].strip() == "n/a"
+    totals = [ln for ln in block.splitlines() if ln.startswith("| **totals**")][0]
+    assert totals.split("|")[6].strip() == "n/a"

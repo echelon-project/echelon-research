@@ -14,6 +14,11 @@ Start with [THESIS.md](THESIS.md) (one page). Then the findings in order; each s
 9. [Weights cannot hold it: LoRA facts recall, skills memorise](findings/F09-weights-cannot-hold-it-lora-facts-recall-skills-memorise.md)
 10. [A generator validating itself shares its blind spot](findings/F10-a-generator-validating-itself-shares-its-blind-spot.md)
 
+## Live bench (PAPER-0029, in progress; evidence only, re-checkable against the run ledgers)
+- [Where it stands and the remaining-arcs plan](findings/remaining-arcs.md) (read first: no live run has delivered the treatment yet)
+- [Arc pilot-01: null on flash, separation against the push arm on pro](findings/pilot-01.md)
+- [Arc p1-03: null, and a retracted separation](findings/p1-03.md)
+
 ## Methods
 - [Tier law and the token economy](methods/MT1-tier-law-and-the-token-economy.md)
 - [Reflex vs think](methods/MT2-reflex-vs-think.md)

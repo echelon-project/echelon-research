@@ -97,9 +97,24 @@ interpreter starts per call, and on this CLI the bridge drops the text of a pre-
 reflex tier guarded nothing during this run; only the prompt-level hook reached the model. Those are
 recorded as open items on the substrate, not hidden.
 
-## Open hypothesis
+## Open hypothesis, and its first test
 
 H: given the installed substrate and a plain ask with no method in it ("fix the report"), the same
 agent on the same repository will still begin with the room and the bank, still commit with proof,
-and still plant. Falsified if the session reverts to the before-shape. To be run as the next
-measurement on the same machine, judged the same way, from the log.
+and still plant. Falsified if the session reverts to the before-shape.
+
+**Run the same afternoon (2026-09-26), same machine, same repository, judged the same way.** The ask
+was one sentence in the owner's language, naming the symptom (a report column that mixes two
+populations) and one constraint (do not push), with nothing about method. From the log: 75 steps,
+105 tool calls, 1 identical repeat, 0 subagents; the room's resume was the third shell command and
+two recalls came before any edit; 13 test runs with the red line first (`Undefined array key`) and a
+deliberate break of the new column afterwards; the matching room item was closed with evidence, a
+checkpoint written, and one lesson atom planted and ingested (its recall came back warm). The
+separate seat re-ran the package's test file: 15 passed, 62 assertions, exit 0.
+
+One rule did not survive the plain ask: the agent left the six changed files uncommitted, reading
+"do not push" as "do not commit" and offering to commit on request. So H holds for the start (room,
+bank), the proof (red first, mutant), and the leaving (plant, checkpoint), and fails for the
+delivery shape (commit in slices) when the ask itself carries a constraint the agent reads as
+adjacent. That is one instance each way; the commit rule is the next thing to strengthen in the
+doctrine text, not a reason to discard the finding.

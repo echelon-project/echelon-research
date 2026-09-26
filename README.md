@@ -31,3 +31,10 @@ report they can act on in one sitting.
 ## Cut law
 v0.1 = THESIS + 10 findings + methods + timeline. Ceiling for the whole report: 30 findings.
 Retractions stay in. Client names, people, credentials, customer data: never.
+
+## Sponsoring
+
+This corpus was mined and gated on paid model time. Sponsorship funds the next cut.
+No tiers, no perks; the findings are the receipt.
+
+[Sponsor on GitHub](https://github.com/sponsors/goravine)
